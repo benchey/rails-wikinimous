@@ -1,0 +1,8 @@
+<div class="container">
+  <h1><%= @article.title %></h1>
+  <%= link_to "Edit article", edit_article_path %>
+  <hr>
+  <p>Content: <%= @article.content %></p>
+  <hr>
+  <%= link_to "Back to list", articles_path %>
+</div>
